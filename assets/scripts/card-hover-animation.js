@@ -1,6 +1,15 @@
+function handleMouseEnter(){
+    console.log('ele foi chamado', this)
+}
+
 function addEventListernersToCards(){
     const cardElements = document.getElementsByClassName('s-card');
-    console.log(cardElements)
+
+    for(let i = 0; i < cardElements.length; i++){
+        const card = cardElements[i];
+        card.addEventListener('mouseenter, handleMouseEnter');
+
+    }
 }
 
 /* 
@@ -10,5 +19,6 @@ Quando colocamos a tag script dentro do head do HTML, usamos esse evento para in
 document.addEventListener("DOMContentLoaded", addEventListernersToCards, false);
 
 */
+
 
 

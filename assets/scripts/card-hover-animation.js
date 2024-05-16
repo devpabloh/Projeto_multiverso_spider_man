@@ -1,5 +1,5 @@
 function handleMouseEnter(){
-    console.log('ele foi chamado', this)
+    this.classList.add('s-card--hovered');
 }
 
 function addEventListernersToCards(){
@@ -13,11 +13,11 @@ function addEventListernersToCards(){
 }
 
 /* 
-Quando colocamos a tag script dentro do head do HTML, usamos esse evento para informar que primeiro deve ser ligo/carregado os elementos HTML, para depois realizar a leitura/carregamento a parte do script.
+Quando colocamos a tag script dentro do head do HTML, usamos esse evento para informar que primeiro deve ser ligo/carregado os elementos HTML, para depois realizar a leitura/carregamento a parte do script. */
 
 
 document.addEventListener("DOMContentLoaded", addEventListernersToCards, false);
 
-*/
+
 
 

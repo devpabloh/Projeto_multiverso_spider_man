@@ -99,6 +99,16 @@ body::before{
     z-index: 1;
 }
 
+.s-controller__button:hover{
+    transform: scale(1.1);
+}
+
+
+.s-controller__button:nth-child(2){
+    margin: 0 3.75rem;
+
+}
+
 .s-controller__line{
     background-color: white;
     width: 50%;

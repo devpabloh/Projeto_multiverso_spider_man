@@ -11,8 +11,8 @@ function addEventListernersToCards(){
 
     for(let i = 0; i < cardElements.length; i++){
         const card = cardElements[i];
-        card.addEventListener('mouseenter', handleMouseEnter);
-        card.addEventListener('mouseleave',handMouseLeave)
+        card.addEventListener('mouseenter', handleMouseEnter); // evento adicionado para quando o mouse estiver sobre
+        card.addEventListener('mouseleave',handMouseLeave) // evento adicionado para quando o mouse for tirado de cima, para que saia o efeito do card
 
     }
 }

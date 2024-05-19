@@ -2,6 +2,7 @@
 @import url('global.css');
 @import url('components/pills.css');
 @import url('components/link_button.css');
+@import url('gallery.css');
 
 .s-wrapper{
     display: flex;

@@ -1,5 +1,6 @@
 @import url('reset.css');
 @import url('global.css');
+@import url('components/pills.css');
 
 .s-wrapper{
     display: flex;
@@ -109,21 +110,18 @@
     margin-bottom: 30px;
 }
 
-.pills ul{
-    display: flex;
-    flex-direction: row;
+.s-wrapper .s-main-content__top .s-description{
+    background-color: rgba(0, 0, 0, .7);
+    max-width: 50%;
+    padding: 20px;
+    border-radius: 10px;
 }
 
-.pills ul li{
-    background-color: var(--primary-color);
+ .s-wrapper .s-main-content__top .s-descripton .s-descripton__text p{
     color: white;
-    padding: 5px 15px;
-    margin: 0 10px;
-    border-radius: 20px;
-    text-transform: uppercase;
+    line-height: 170%;
 }
 
-.pills ul li:first-child{
-    margin-left: 0;
+.s-wrapper .s-main-content__top .s-description .pills{
+    margin-bottom: 20px;
 }
-
